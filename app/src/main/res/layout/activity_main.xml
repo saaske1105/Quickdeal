@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.pratikraj.quickdeal.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="95dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_background">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textview1"
+        android:text="I AM A..."
+        android:textSize="25sp"
+        android:textColor="@color/White"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal">
+
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_buyer"
+            android:onClick="buyer"
+            android:id="@+id/button1" />
+
+
+        <Button
+            android:layout_weight="0.1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_seller"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="seller"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button2" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
